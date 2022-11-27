@@ -79,6 +79,7 @@ class FunkinUtil
     public static function absolutePath(create:String, folderpath:String)
     {
     create = path + folderpath;
+    return Assets.getPath(create); 
     }
 
     // Stoled of Musk-h (in Github), sorry, i dont have a brain.
